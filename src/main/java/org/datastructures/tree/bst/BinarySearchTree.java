@@ -1,6 +1,6 @@
-package org.example.tree.bst;
+package org.datastructures.tree.bst;
 
-import org.example.util.SleepUtil;
+import org.datastructures.util.SleepUtil;
 
 import java.awt.*;
 

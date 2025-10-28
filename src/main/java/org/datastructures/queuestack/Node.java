@@ -1,4 +1,4 @@
-package queuestack;
+package org.datastructures.queuestack;
 
 public class Node {
 

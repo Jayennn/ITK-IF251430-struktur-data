@@ -1,6 +1,5 @@
-package org.example.tree.bst;
+package org.datastructures.tree.bst;
 
-import org.example.util.SleepUtil;
 import javax.swing.*;
 
 public class Main {
@@ -18,7 +17,7 @@ public class Main {
          frame.setVisible(true);
 
          new Thread(() -> {
-            int[] array = {8, 3, 5, 2, 10, 9, 12};
+            int[] array = {8, 3, 5, 2, 2, 10, 9, 12};
 //            char[] array = {'R', 'A', 'B', 'C', 'D', 'E', 'F', 'G',};
 
 

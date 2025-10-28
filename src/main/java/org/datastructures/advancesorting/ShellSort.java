@@ -1,7 +1,7 @@
-package advancesorting;
+package org.datastructures.advancesorting;
 
 import java.util.Arrays;
-import util.SleepUtil;
+import org.datastructures.util.SleepUtil;
 
 public class ShellSort {
 

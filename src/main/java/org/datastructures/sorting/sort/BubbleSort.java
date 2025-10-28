@@ -1,7 +1,7 @@
-package sorting.sort;
+package org.datastructures.sorting.sort;
 
 import java.util.Arrays;
-import util.SleepUtil;
+import org.datastructures.util.SleepUtil;
 
 public class BubbleSort {
 

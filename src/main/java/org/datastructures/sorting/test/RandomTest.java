@@ -1,4 +1,4 @@
-package org.example.sorting.test;
+package org.datastructures.sorting.test;
 
 public class RandomTest {
   public static void main(String[] args) {

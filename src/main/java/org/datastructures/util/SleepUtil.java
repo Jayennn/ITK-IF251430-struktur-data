@@ -1,4 +1,4 @@
-package org.example.util;
+package org.datastructures.util;
 
 public class SleepUtil {
 

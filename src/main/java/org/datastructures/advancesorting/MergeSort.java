@@ -1,7 +1,7 @@
-package org.example.advancesorting;
+package org.datastructures.advancesorting;
 
 import java.util.Arrays;
-import org.example.util.SleepUtil;
+import org.datastructures.util.SleepUtil;
 
 public class MergeSort {
 

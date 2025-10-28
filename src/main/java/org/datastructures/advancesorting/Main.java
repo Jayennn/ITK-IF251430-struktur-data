@@ -1,5 +1,8 @@
-package advancesorting;
+package org.datastructures.advancesorting;
 
+import org.datastructures.advancesorting.MergeSort;
+import org.datastructures.advancesorting.QuickSort;
+import org.datastructures.advancesorting.ShellSort;
 public class Main {
 
     public static void main(String[] args) {

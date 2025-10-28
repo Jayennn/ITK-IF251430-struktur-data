@@ -1,4 +1,4 @@
-package org.example.tree.bst;
+package org.datastructures.tree.bst;
 
 import java.awt.*;
 
