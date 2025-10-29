@@ -1,5 +1,7 @@
 package org.datastructures.tree.bst;
 
+import org.datastructures.util.SleepUtil;
+
 import javax.swing.*;
 
 public class Main {
@@ -17,28 +19,28 @@ public class Main {
          frame.setVisible(true);
 
          new Thread(() -> {
-            int[] array = {8, 3, 5, 2, 2, 10, 9, 12};
-//            char[] array = {'R', 'A', 'B', 'C', 'D', 'E', 'F', 'G',};
+            int[] array = {8, 3, 5, 2, 10, 9, 12, 11, 4, 7};
 
 
             for (int value : array) {
                bst.insert(value);
-
+               SleepUtil.sleepMillis(500);
+               panel.repaint();
             }
 
-            // Then animate traversal
+
             System.out.println("\nIn-order traversal:");
             bst.inOrderTraversal(bst.root);
-            bst.current = null; // clear highlight
+            bst.current = null;
 
 
-//            System.out.println("\nPre-order traversal:");
-//            bst.preOrderTraversal(bst.root);
-//            bst.current = null;
+               System.out.println("\nPre-order traversal:");
+               bst.preOrderTraversal(bst.root);
+               bst.current = null;
 
-//            System.out.println("\nPost-order traversal:");
-//            bst.postOrderTraversal(bst.root);
-//            bst.current = null;
+            System.out.println("\nPost-order traversal:");
+            bst.postOrderTraversal(bst.root);
+            bst.current = null;
 
 
             panel.repaint();

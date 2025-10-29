@@ -50,20 +50,21 @@ public class BinarySearchTree {
          return;
       }
 
+      visit(root, Color.GRAY, 500);
       inOrderTraversal(root.left);
 
-
-      visit(root, Color.ORANGE, 300);
+      visit(root, Color.ORANGE, 500);
       System.out.print(root.key + " ");
       root.visited = true;
       panel.repaint();
-      SleepUtil.sleepMillis(300);
+      SleepUtil.sleepMillis(500);
 
+      visit(root, Color.GRAY, 500);
       inOrderTraversal(root.right);
 
 
       if ((root.left == null || root.left.visited) && (root.right == null || root.right.visited)) {
-         visit(root, Color.BLUE, 300);
+         visit(root, Color.GRAY, 300);
       }
 
 
@@ -77,18 +78,20 @@ public class BinarySearchTree {
          return;
       }
 
-      visit(root, Color.ORANGE, 300);
+      visit(root, Color.ORANGE, 500);
       System.out.print(root.key + " ");
       root.visited = true;
       panel.repaint();
-      SleepUtil.sleepMillis(300);
+      SleepUtil.sleepMillis(500);
 
-
+      visit(root, Color.GRAY, 500);
       preOrderTraversal(root.left);
+
+      visit(root, Color.GRAY, 500);
       preOrderTraversal(root.right);
 
       if ((root.left == null || root.left.visited) && (root.right == null || root.right.visited)) {
-         visit(root, Color.BLUE, 300);
+         visit(root, Color.GRAY, 300);
       }
 
       visit(root, Color.GREEN, 300);
@@ -100,18 +103,21 @@ public class BinarySearchTree {
          return;
       }
 
+      visit(root, Color.GRAY, 500);
       postOrderTraversal(root.left);
+
+      visit(root, Color.GRAY, 500);
       postOrderTraversal(root.right);
 
 
-      visit(root, Color.ORANGE, 300);
+      visit(root, Color.ORANGE, 500);
       System.out.print(root.key + " ");
       root.visited = true;
       panel.repaint();
-      SleepUtil.sleepMillis(300);
+      SleepUtil.sleepMillis(500);
 
       if ((root.left == null || root.left.visited) && (root.right == null || root.right.visited)) {
-         visit(root, Color.BLUE, 300);
+         visit(root, Color.GRAY, 300);
       }
 
       visit(root, Color.GREEN, 300);
