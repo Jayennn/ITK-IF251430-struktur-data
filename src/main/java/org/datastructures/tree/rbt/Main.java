@@ -10,13 +10,13 @@ public class Main {
       tree.insert(val);
     }
 
-    System.out.println("PreOrder:");
-    tree.inOrderTraversal(tree.root);
+    // System.out.println("PreOrder:");
+    // tree.preOrderTraversal(tree.root);
 
     System.out.println("");
 
-    System.out.println("PostOrder:");
-    tree.postOrderTraversal(tree.root);
+    // System.out.println("PostOrder:");
+    // tree.postOrderTraversal(tree.root);
 
     System.out.println("");
 

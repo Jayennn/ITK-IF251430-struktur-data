@@ -1,7 +1,5 @@
 package org.datastructures.tree.bst;
 
-import org.datastructures.util.SleepUtil;
-
 import javax.swing.*;
 
 public class Main {
